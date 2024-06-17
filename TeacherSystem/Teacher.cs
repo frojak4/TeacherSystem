@@ -8,10 +8,11 @@ namespace TeacherSystem
 {
     internal class Teacher : User
     {
-        private Registry userlist = new Registry();
+        private Registry userlist;
 
-        public Teacher(string name, string username, string password) : base(name, username, password)
+        public Teacher(string name, string username, string password, Registry UserList) : base(name, username, password)
         {
+            userlist = UserList;
         }
 
         public override void mainMenu()

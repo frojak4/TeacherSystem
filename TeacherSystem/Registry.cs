@@ -10,7 +10,7 @@ namespace TeacherSystem
     {
         private List<Teacher> _teachers = new List<Teacher>()
         {
-            new Teacher("Frode", "frojak4", "123")
+            new Teacher("test", "test", "test")
         };
 
         private List<Student> _students = new List<Student>()
